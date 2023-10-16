@@ -20,4 +20,4 @@ function permute(prefix, str) {
   }
 }
 permute_and_print("ABC");
-// console.log();
+

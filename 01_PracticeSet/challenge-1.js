@@ -7,7 +7,6 @@ function duplicateCharCount(str) {
   let arr = {};
   for (let i = 0; i < str.length; i++) {
     if (Object.keys(arr).includes(str[i])) {
-      //   console.log(Object.assign(arr, { [str[i]]: ++arr[str[i]] }));
       Object.assign(arr, { [str[i]]: ++arr[str[i]] });
       continue;
     }
